@@ -1,0 +1,43 @@
+body{
+    background-color: #141414; 
+}
+
+img{
+    margin-top: 18%;
+    width: 150px;
+}
+
+#CONFIRM{
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    width: 50%;
+    height: 32%;
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+    border-radius: 15px;
+}   
+
+#ERROR{
+    color: crimson;
+    font-size: 50px;
+    margin-top: 4%;
+}
+
+#LOGIN{
+    background-color:rgb(56, 55, 55);
+    color: aliceblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding: 1%;
+    width: 15%;
+    border-radius: 10px;
+}
+
+#LOGIN:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color: black;
+}

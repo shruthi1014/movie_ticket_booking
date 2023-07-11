@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Book food</title>
+<style>
+h1,h3
+{
+ color:red;
+}
+img{
+border:2px;
+width:100px;
+height:150px;
+float:left;
+}
+input[type=submit]{
+background-color:orange;
+color:black;
+}
+input[type=submit]:hover{
+background-color:white;
+color:red;
+}
+</style>
+</head>
+<body style="background-color:yellow">
+<center><h1>Food for the View!</h1><h3>Order delicious food while enjoying the show</h3></center>
+<table border=1 bgcolor="orange" cellspacing=0 width="100%">
+<tr>
+<th colspan=2>Item</th>
+<th>Cost</th>
+<th colspan=2>Item</th>
+<th>Cost</th>
+<th colspan=2>Item</th>
+<th>Cost</th>
+</tr>
+<tr>
+<td><img src="E:\5th Semester(BTech)\IWP_Jcomponent\popcorn.jpg"></td>
+<td>Classic salt popcorn<br>Cheese coated popcorn<br>Caramelized popcorn</td>
+<td>₹30(60gm)<br>₹40(60gm)<br>₹40(60gm)</td>
+<td><img src="E:\5th Semester(BTech)\IWP_Jcomponent\burger.jpg"></td>
+<td>Beetroot patty burger<br>Chicken patty burger</td>
+<td>₹60<br>₹60</td>
+<td><img src="E:\5th Semester(BTech)\IWP_Jcomponent\Sandwich.jpg"></td>
+<td>Masala-cheese sandwich<br>Chicken-egg sandwich</td>
+<td>₹50<br>₹50</td>
+</tr>
+<tr>
+<td><img src="E:\5th Semester(BTech)\IWP_Jcomponent\fries.jpg"></td>
+<td>Fries</td>
+<td>₹30</td>
+<td><img src="E:\5th Semester(BTech)\IWP_Jcomponent\softdrinks.jpg"></td>
+<td>Thumbs Up<br>7up<br>Fanta</td>
+<td>₹40(750ml)<br>₹40(750ml)<br>₹40(750ml)</td>
+<td><b>The Days Special Combo!</b></td>
+<td><marquee behavoiur ="scroll" direction="left">Masala cheese Sandwich/Chicken Egg Sandwich+Fries+Fanta<h4></h4></marquee></scroll></td>
+<td>₹110</td>
+</tr>
+</table>
+<b>Enter the quatities of food that you want to order</b> <br>
+<form method="post", action="foodp.php">
+Classic salt popcorn: &nbsp&nbsp<input type="number" name="data1" value="0" min="0"><br>
+Cheese coated popcorn: <input type="number" name="data2" value="0" min="0"><br>
+Caramalized popcorn: &nbsp&nbsp<input type="number" name="data3" value="0" min="0"><br>
+Beetroot patty burger: <input type="number" name="data4" value="0" min="0"><br>
+Chicken patty burger: <input type="number" name="data5" value="0" min="0"><br>
+Masala Cheese Sandwich: <input type="number" name="data6" value="0" min="0"><br>
+Chicken Egg Sandwich: <input type="number" name="data7" value="0" min="0"><br>
+Fries: <input type="number" name="data8" value="0" min="0"><br>
+Thumbs Up: <input type="number" name="data9" value="0" min="0"><br>
+7up: <input type="number" name="data10" value="0" min="0"><br>
+Fanta: <input type="number" name="data11" value="0" min="0"><br>
+The Days Special Combo: <input type="number" name="data12" value="0" min="0"><br>
+<input type="submit" name="submit">
+</form>
+</body>
+</html>

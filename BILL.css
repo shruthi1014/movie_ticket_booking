@@ -1,0 +1,156 @@
+body{
+    background-color: #141414; 
+}
+
+.PAYMENT{
+    display: block;
+    background-color: grey;
+    width: 20%;
+    height: 50%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding: 3%;
+    padding-top: 1%;
+}
+.PAYMENT h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-left: -10%;
+}
+
+
+#btn{
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color:antiquewhite;
+}
+
+#NB,#UPI,#CC,#DC{
+    display: none;
+    background-color: black; 
+    width: 25.5%;
+    height: 40%;
+    margin-left: 46%;
+    margin-top: -27.2%;
+    padding: 3%;
+    padding-top: 1%;
+    color: antiquewhite;
+}
+
+img{
+    width: 45%;
+    height: 0%;
+    vertical-align: middle;
+}
+
+.input{
+    background-color:blue;
+}
+
+#PAY{
+    background-color: crimson;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#PAY:hover{
+    cursor: pointer;
+    background-color: white;
+    color: crimson;
+}
+
+#UPI img:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+#CREDIT_CARD{
+    margin-left: 60%;
+    margin-top: -24%;
+    width: 150px;
+}
+
+#CARD_NUMBER, #DC_CARD_NUMBER{
+    height: 25px;
+    text-align: center;
+    background-color: #141414;
+    border-color: crimson;
+    border-width: 5px;
+    color: white;
+}
+
+#EXPIRY, #DC_EXPIRY{
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    background-color: #141414;
+    border-color: crimson;
+    color: white;
+    border-width: 5px;
+}
+
+#CV{
+    margin-left: 60%;
+    margin-top: -20.5%;
+}
+
+#CVV, #DC_CVV{
+    margin-left: 60%;
+    width: 60px;
+    height: 20px;
+    text-align: center;
+    background-color: #141414;
+    border-color: crimson;
+    border-width: 5px;
+    color: white;
+}
+
+#ENT{
+    margin-top: 0%;
+}
+
+#SUCCESS, #DC_SUCCESS{
+    visibility:hidden;
+    color: green;
+}
+
+#ERROR, #DC_ERROR{
+    margin-left: -6%;
+    visibility:hidden;
+    color: crimson;
+}
+
+#E_SUCCESS, #CV_SUCCESS,#DCE_SUCCESS, #DCCV_SUCCESS{
+    visibility:hidden;
+    color: green;
+}
+
+#E_ERROR, #CV_ERROR,#DCE_ERROR, #DCCV_ERROR{
+    margin-left: -6%;
+    visibility:hidden;
+    color: crimson;
+}
+
+input::-ms-reveal,
+      input::-ms-clear {
+        display: none;
+      }
+
+#AMOUNT{
+    color: white;
+    margin-bottom: -9%;
+    margin-top: 10%;
+    margin-left: 20%;
+}

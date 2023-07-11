@@ -1,0 +1,147 @@
+body{
+    background-color: #141414;    
+}
+
+.INFO
+{
+    background-color: crimson;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    height: 20px;
+    width: 100%;
+    justify-content: center;
+    color: white; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.NAV{
+    background-color: black;  
+    color: white;  
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+    top : 0;
+    right: 0;
+}
+.NAV1{
+    background-color: black;  
+    color: white;  
+    position: absolute;
+    right: 0;
+    margin-top: -5%;
+    word-spacing: 5pt;
+    text-decoration: none;
+    font-family:cursive;
+}
+
+a,h3,img{
+    display: inline;
+    color: white;
+    word-spacing: 0pt;
+    padding: 5px; 
+    text-decoration: none;
+}
+
+h3{
+    margin-left: -23%;
+    color: crimson;
+    font-family:cursive;
+}
+
+h1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 1%;
+    height: 5%;
+}
+
+#MENU:hover{
+    color: white;
+    background-color: red;
+}
+
+
+#LOGO{
+    cursor: pointer;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 70px; 
+    height: 70px;
+}
+
+#Search{
+    height: 20px;
+}
+
+#SICON{
+    margin-left: 10%;
+}
+
+#LOGIN{
+    margin-left: 5%;
+    cursor: pointer;
+}
+
+#LOGIN:hover{
+    color: red;
+    font-weight:900;
+}
+
+.MOVIES{
+    display: flex;
+    flex-direction: row;
+}
+
+.slideshow{
+    width: 100%;
+    height: 50%;
+    margin-top: 10%;
+}
+
+.slideshow img{
+    width: 650px;
+    height:300px;
+}
+
+.card{
+    margin-top: 7%;
+    margin-left: -7%;
+    margin-right: 15%;
+    width: 18%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    object-fit: cover;
+    color: antiquewhite;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.card img{
+    object-fit: contain;
+    object-position: 0%;
+    width: 220px;
+    height: 300px;
+}
+
+
+.card:hover{
+    cursor: pointer;
+    background-color: crimson;
+}
+
+button{
+    height: 5px;
+    padding: 15%;
+    text-align: center;
+    justify-content: center;
+}
+
+#MOVCARD{
+    background-color: transparent;
+}
+

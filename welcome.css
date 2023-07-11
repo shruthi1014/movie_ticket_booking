@@ -1,0 +1,47 @@
+body{
+    background-image: url("welcome.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes change{
+    from{background-image: url("welcome.jpg");}
+    to{background-image: url("welcome1.jpg");}
+}
+
+.welcome-msg{
+    text-align: center;
+    color: rgba(218, 55, 88, 0.555);
+    font-family: cursive;
+    font-size: x-large;
+    padding-top: 5cm;
+    animation-name: welcome;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes welcome{
+    from{color: greenyellow;}
+    to{color: yellow}
+}
+
+.btn{
+    height: 2cm;
+    width: 5cm;
+    background-color: black;
+    color:yellow;
+    font-family: cursive;
+    font-size: larger;
+
+}
+
+.btn:hover{
+    background-color: brown;
+    cursor: pointer;
+    color: white;
+}

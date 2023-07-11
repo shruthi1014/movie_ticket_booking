@@ -1,0 +1,83 @@
+.login-form{
+    max-width: 500px;
+    margin: auto;
+    height: 10cm;
+    box-sizing: border-box;
+    box-shadow: 12px black;
+    border: 10px solid gray;
+    padding-top: 25px;
+    border-radius: 5px;
+    animation-name: login;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    background-color: bisque;
+}
+
+@keyframes login{
+    from{max-width: 0px;height:0cm;}
+    to{max-width:500px;height:10cm;}
+}
+
+.REG{
+    text-decoration: none;
+    padding: 2%;
+    color:white;
+    background-color: black;
+}
+
+.lbtn{
+    width: 80px;
+    height: 40px;
+    color:white;
+    background-color: black;
+}
+
+.lbtn:hover{
+    cursor: pointer;
+    color:white;
+    background-color: crimson;
+}
+
+.REG:hover{
+    cursor: pointer;
+    color:white;
+    background-color: crimson;
+}
+
+body{
+    padding-top:100px;
+    background-color: #141414; 
+}
+
+.register-form{
+    max-width: 500px;
+    margin: auto;
+    height: 10cm;
+    box-sizing: border-box;
+    box-shadow: 12px black;
+    border: 10px solid gray;
+    padding-top: 25px;
+    border-radius: 5px;
+    animation-name: register;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    background-color: bisque;    
+}
+
+@keyframes register{
+    from{max-width: 500px;height: 0cm;}
+    to{max-width: 500px;height: 10cm;}
+}
+
+.rbtn{
+    height: 50px;
+    width: 70px;
+    background-color: green;
+    color: yellow;
+}
+
+table{
+    margin-top: -45%;
+    border-collapse:separate;
+    border-spacing:0 15px;
+}

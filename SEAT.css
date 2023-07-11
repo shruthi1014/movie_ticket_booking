@@ -1,0 +1,55 @@
+.seat{
+    background-color: gainsboro;
+    border-radius: 5px;
+    width:20px;
+    height:20px;
+    cursor: pointer;
+    text-align: center;
+    border: 3px green;
+    border-style: solid;
+}
+
+body{
+    background-color: black;
+}
+
+.rowname{
+    color:ghostwhite;
+    text-align: center;
+    width:50px;
+}
+
+.gap{
+    width:50px;
+}
+
+.gaps{
+    width: 25px;
+}
+
+#seat{
+    visibility: hidden;
+}
+
+.line{
+    color: white;
+    margin-top: 3%;
+    line-height: 0%;
+}
+
+#SUB{
+    text-decoration: none;
+    background: white;
+    border: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin-top: -2%;
+}
+
+#SUB:hover{
+    cursor: pointer;
+    background-color: crimson;
+    color:antiquewhite;
+}
