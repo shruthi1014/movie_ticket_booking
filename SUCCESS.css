@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+img{
+    margin-top: 18%;
+    width: 150px;
+}
+
+#CONFIRM{
+    display: none;
+    background-color: rgb(56, 55, 55);
+    text-align: center;
+    width: 50%;
+    height: 32%;
+    position: fixed;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;   
+    border-radius: 15px;
+    
+}
+
+#TICK{
+    margin-top: 2%;
+    width: 70px;
+}
+
+#CORRECT{
+    display: none;
+    margin-top: 2%;
+    margin-left: 45%;
+    width: 70px;
+}
+
+#FB{
+    text-decoration: none;
+    color: white;
+}
+
+#FB:hover{
+    background-color: white;
+    color: crimson;
+}

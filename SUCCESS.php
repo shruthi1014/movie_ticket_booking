@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CONFIRM</title>
-    <link rel="stylesheet" type="text/css" href="SUCCESS1.css">
-    <script src="SUCCESS.js"></script>
+    <link rel="stylesheet" type="text/css" href="SUCCESS.css">
+    <script src="SUCCESS1.js"></script>
 </head>
 
 <body>
@@ -18,6 +18,7 @@
         <img src="TICK.gif" alt="TICK" id="TICK"> <img src="TICK.png" alt="TICK" id="CORRECT">
         <h3>THANK YOU FOR BOOKING WITH US </h3> 
         <h4>Your Ticket has been sent to your registered Email ID </h4>
+        <a href="FEEDBACK.php" id="FB">GIVE FEEDBACK</a>
     </div>
 </body>
 </html>
@@ -66,7 +67,7 @@ try {
 
     //Attachments
     //$mail->addAttachment('/var/tmp/file.tar.gz');         //Add attachments
-    $mail->addAttachment('/pdfGeneration/TICKETS/ticket.pdf', 'E-TICKET.pdf');    //Optional name
+    $mail->addAttachment('ticket.pdf', 'E-TICKET.pdf');    //Optional name
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
@@ -76,6 +77,7 @@ try {
 
     $mail->send();
     echo 'Message has been sent';
+    exit;
 } catch (Exception $e) {
     echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
 }
